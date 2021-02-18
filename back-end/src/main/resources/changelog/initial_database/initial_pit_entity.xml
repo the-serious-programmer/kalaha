@@ -1,0 +1,26 @@
+<databaseChangeLog
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+    <changeSet id="initial_pit_entity" author="Sander Boumeester">
+        <createTable tableName="pit">
+            <column name="id" type="uuid">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="type" type="text">
+                <constraints nullable="false"/>
+            </column>
+            <column name="position" type="integer">
+                <constraints nullable="false"/>
+            </column>
+            <column name="stones" type="integer">
+                <constraints nullable="false"/>
+            </column>
+            <column name="player_id" type="uuid"/>
+        </createTable>
+        <addForeignKeyConstraint baseTableName="pit" baseColumnNames="player_id"
+                                 constraintName="fk_pit_player"
+                                 referencedTableName="player" referencedColumnNames="id"/>
+    </changeSet>
+</databaseChangeLog>

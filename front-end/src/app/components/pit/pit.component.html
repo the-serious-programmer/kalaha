@@ -1,0 +1,8 @@
+<button *ngIf="isScore()" class="score-pit" data-cy="score-pit" disabled>
+  <span class="row">{{'SCORE' | translate}}</span>
+  {{pit.stones}}
+</button>
+<button (click)="takeTurn.emit(this.pit)" *ngIf="isRegular()"
+        [disabled]="isEmpty()" class="regular-pit" data-cy="regular-pit">
+  {{pit.stones}}
+</button>

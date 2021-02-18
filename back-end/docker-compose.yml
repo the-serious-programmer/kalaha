@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+    kalaha_db:
+        image: postgres
+        container_name: kalaha_db
+        ports:
+            - 5432:5432
+        environment:
+            POSTGRES_DB: kalaha
+            POSTGRES_USER: kalaha_admin
+            POSTGRES_PASSWORD: "<INSERT YOUR PASSWORD THAT SHOULD BE STORED IN A KEEPASS>"
+        networks:
+            - kalaha-network
+networks:
+    kalaha-network:
+        name: kalaha-network

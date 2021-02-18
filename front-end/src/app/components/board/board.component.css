@@ -1,0 +1,9 @@
+.board {
+  margin-top: 5%;
+}
+
+.end-game {
+  justify-content: center;
+  text-align: center;
+  margin-top: 2%;
+}

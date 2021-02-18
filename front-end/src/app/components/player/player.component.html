@@ -1,0 +1,10 @@
+<div>
+  <span class="row">
+    {{'PLAYER_' + player.type | translate}}
+    <span *ngIf="player.turn" class="turn">{{'TURN' | translate}}</span>
+  </span>
+  <span class="row">
+    <fa-icon [icon]="isFirstPlayer() ? faLongArrowLeft : faLongArrowRight" size="3x"></fa-icon>
+  </span>
+  <kahala-pit (takeTurn)="onTakeTurn($event)" *ngFor="let pit of player.pits" [pit]="pit"></kahala-pit>
+</div>

@@ -1,0 +1,10 @@
+{
+  "PLAYER_FIRST": "Player 1",
+  "PLAYER_SECOND": "Player 2",
+  "TURN": "has turn",
+  "GAME_END": "The game has ended, refresh the page to start a new game",
+  "GAME_CREATE_ERROR": "The game could not be created, please try again on a later time",
+  "TAKE_TURN_ERROR": "The pit could not be sowed. Did the player who submitted have the turn?",
+  "SCORE": "Score: ",
+  "MENU_TITLE": "Kalaha - A pit sowing game"
+}

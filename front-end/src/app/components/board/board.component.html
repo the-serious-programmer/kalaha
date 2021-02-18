@@ -1,0 +1,11 @@
+<kahala-menu></kahala-menu>
+<div *ngIf="game" class="container board">
+  <div *ngFor="let player of game.players">
+    <kahala-player (takeTurn)="onTakeTurn($event)" [player]="player"
+                   class="d-flex align-items-center justify-content-center"></kahala-player>
+  </div>
+  <div *ngIf="isGameEnd()" class="end-game">
+    <b>{{'GAME_END' | translate}}</b>
+  </div>
+</div>
+<kahala-error-pane [errorKeys]="errorKeys"></kahala-error-pane>

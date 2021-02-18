@@ -1,0 +1,8 @@
+**/front-end/src/assets/**
+**/front-end/package-lock.json
+
+# Disable formatting of html files as it formats closing brackets in an odd way
+# (By putting the closing brackets on a new line)
+# This should be fixed by prettier in the following github issue:
+# https://github.com/prettier/prettier/issues/5377
+*.html

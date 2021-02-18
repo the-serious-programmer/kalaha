@@ -1,0 +1,19 @@
+.score-pit,
+.regular-pit {
+  color: #fff;
+}
+
+.score-pit {
+  padding: 50px;
+}
+
+.regular-pit {
+  padding: 25px;
+  background-color: #0000a4;
+}
+
+.regular-pit:disabled,
+.score-pit {
+  background-color: #0000db;
+  opacity: 65%;
+}

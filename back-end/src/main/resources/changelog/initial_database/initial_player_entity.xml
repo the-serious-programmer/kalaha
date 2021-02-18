@@ -1,0 +1,19 @@
+<databaseChangeLog
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+    <changeSet id="initial_player_entity" author="Sander Boumeester">
+        <createTable tableName="player">
+            <column name="id" type="uuid">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="type" type="text"/>
+            <column name="is_turn" type="boolean"/>
+            <column name="game_id" type="uuid"/>
+        </createTable>
+        <addForeignKeyConstraint baseTableName="player" baseColumnNames="game_id"
+                                 constraintName="fk_player_game"
+                                 referencedTableName="game" referencedColumnNames="id"/>
+    </changeSet>
+</databaseChangeLog>

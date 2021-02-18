@@ -1,0 +1,104 @@
+{
+  "id": "9d01e22b-e8dd-4aec-bae3-ff2f7d4e7d28",
+  "status": "PLAYING",
+  "players": [
+    {
+      "id": "e6a0de44-a8a1-4527-aa13-4e84294ee320",
+      "type": "FIRST",
+      "turn": false,
+      "pits": [
+        {
+          "id": "959cbcf0-e8b0-4c24-b9a6-53691c66183c",
+          "position": 1,
+          "type": "SCORE",
+          "stones": 1
+        },
+        {
+          "id": "f02ecd30-ace2-4644-aa12-0d1ae945ad25",
+          "position": 2,
+          "type": "REGULAR",
+          "stones": 6
+        },
+        {
+          "id": "f9015d53-c0f3-476b-a264-701d39e8520e",
+          "position": 3,
+          "type": "REGULAR",
+          "stones": 0
+        },
+        {
+          "id": "3fa7f182-caf1-4050-91f4-f1622c851e44",
+          "position": 4,
+          "type": "REGULAR",
+          "stones": 7
+        },
+        {
+          "id": "6fa10fb9-9048-4b25-a8f6-b6d8a1c0e2fe",
+          "position": 5,
+          "type": "REGULAR",
+          "stones": 7
+        },
+        {
+          "id": "9a8922bc-496e-423e-ab7e-6eeee4deab6b",
+          "position": 6,
+          "type": "REGULAR",
+          "stones": 7
+        },
+        {
+          "id": "e23bf8f3-51ac-4c04-8395-cbe613da7b3b",
+          "position": 7,
+          "type": "REGULAR",
+          "stones": 7
+        }
+      ]
+    },
+    {
+      "id": "fbb1c52e-4c8a-4bd8-917e-c820ea778f64",
+      "type": "SECOND",
+      "turn": true,
+      "pits": [
+        {
+          "id": "ad57f03c-4349-4002-abbb-eaccd07e8e44",
+          "position": 7,
+          "type": "SCORE",
+          "stones": 0
+        },
+        {
+          "id": "7fab8f73-41de-4a4c-8318-4a178293c7f3",
+          "position": 6,
+          "type": "REGULAR",
+          "stones": 7
+        },
+        {
+          "id": "41259f53-d27f-4024-9fb2-6bb8490894fb",
+          "position": 5,
+          "type": "REGULAR",
+          "stones": 6
+        },
+        {
+          "id": "909cf342-a364-4977-9f8e-865690df1b88",
+          "position": 4,
+          "type": "REGULAR",
+          "stones": 6
+        },
+        {
+          "id": "4d5a228c-37f0-4b5c-8b50-b34c31d0e5cf",
+          "position": 3,
+          "type": "REGULAR",
+          "stones": 6
+        },
+        {
+          "id": "11cd3b08-f03c-41d5-b580-d43003278636",
+          "position": 2,
+          "type": "REGULAR",
+          "stones": 6
+        },
+        {
+          "id": "345dec14-809b-44ea-8281-576d9906d632",
+          "position": 1,
+          "type": "REGULAR",
+          "stones": 6
+        }
+      ]
+    }
+  ]
+}

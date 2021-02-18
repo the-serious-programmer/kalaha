@@ -1,0 +1,3 @@
+<div *ngIf="errorKeys.length > 0" class="error-pane">
+    <span *ngFor="let errorKey of errorKeys"><b>{{errorKey | translate}}</b></span>
+</div>
