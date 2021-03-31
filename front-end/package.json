@@ -7,9 +7,6 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "integration": "start-server-and-test start http://localhost:4200 cy:run",
     "format:fix": "pretty-quick --staged"
   },
   "husky": {
@@ -47,7 +44,6 @@
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
-    "cypress": "^6.4.0",
     "husky": "^4.3.6",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",

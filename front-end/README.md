@@ -63,14 +63,6 @@ Note that with installing the project, a git pre-commit hook for [Prettier](http
 installed with [Husky](https://typicode.github.io/husky) to format the front-end code automatically before committing.  
 You can also run this auto-format: `npm run format:fix`
 
-## Running integration tests
-
-Run `npm run integration` to execute the end-to-end tests via [Cypress](https://www.cypress.io/).  
-You can also work visually with Cypress by running `npm run cy:open`, note that for this to work, the front-end
-development server has to run.  
-All back-end calls are stubbed with Cypress's [intercept](https://docs.cypress.io/api/commands/intercept.html) feature,
-meaning that the integration tests have no dependency on the back-end and database.
-
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out
